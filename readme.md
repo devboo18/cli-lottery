@@ -1,8 +1,9 @@
 # lottery CLI
 
 A CLI for lottery - 1.0.0.
+This CLI was developed with GlueGun (https://github.com/infinitered/gluegun/tree/master/docs)
 
-## First use
+## Getting start
 
 ```shell
 $ create-react-app MyProject
