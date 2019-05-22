@@ -1,0 +1,20 @@
+import React from 'react';
+
+import { Container } from './styles.js';
+import {connect} from "react-redux";
+
+function <%= props.name %> () {
+    return (
+        <Container />
+    );
+}
+
+const mapDispatchToProps = dispatch => ({
+    //Your redux functions 
+});
+
+const mapStateToProps = state => ({
+    //Your Redux States
+});
+
+export default connect(mapStateToProps,mapDispatchToProps)(<%= props.name %>);

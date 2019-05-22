@@ -1,0 +1,10 @@
+import React from 'react';
+import {shallow} from 'enzyme';
+import <%=props.name %> from `../${<% props.name %>}`;
+
+test('Description', () => {
+  // Render a element
+  const component = shallow(<<%=props.name%> />);
+  expect(true).toEqual(true);
+
+});

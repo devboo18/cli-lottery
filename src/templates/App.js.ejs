@@ -1,0 +1,16 @@
+import React,{ useState } from 'react';
+import Routes from './routes';
+import {connect} from "react-redux";
+
+function App (){
+    return(
+        <Routes />
+    )
+}
+const mapDispatchToProps = dispatch => ({
+});
+
+const mapStateToProps = state => ({
+});
+
+export default connect(mapStateToProps,mapDispatchToProps)(App);

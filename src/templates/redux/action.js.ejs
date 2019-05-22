@@ -1,0 +1,11 @@
+export  const <%=props.name%> = () => {
+    return (dispatch, getState) => {
+
+        let state = getState();
+
+        dispatch({
+            type: "SOME_TYPE",
+            data: "SOME_DATA"
+        })
+    }
+}
