@@ -18,7 +18,7 @@ The start command will install the following dependencies:
 | Firebase             |
 | Redux                |
 | Redux-Thunk          |
-| React-Toasify        |
+| React-Toastify       |
 | Axios                |
 | redux-firestore      |
 | react-redux-firebase |
